@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Livestock-Care</string>
+    <string name="title_welcome">Livestock Disease</string>
+    <string name="text_welcome">The Animal Disease Detection Application is an innovative approach to livestock health management based on symptoms and images.</string>
+    <string name="join_now">Join Now</string>
+    <string name="already_have_an_account">Already Have an Account ?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="hi_welcome_back">Hi, Welcome Back !</string>
+    <string name="hello_again_you_ve_been_missed">Hello again, you’ve been missed</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="please_create_an_account_first">Please create an account first!</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="fill_username">Name cannot be empty</string>
+    <string name="fill_email">Email cannot be empty</string>
+    <string name="fill_password">The password cannot be empty</string>
+    <string name="fill_confirmPassword">Password does not match</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="succes_login">Succes to login</string>
+    <string name="next">Next</string>
+</resources>
