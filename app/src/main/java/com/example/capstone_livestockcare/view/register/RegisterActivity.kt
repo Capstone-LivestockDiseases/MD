@@ -112,6 +112,11 @@ class RegisterActivity : AppCompatActivity() {
 
 
         }
+
+        binding.signInText.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun showToast(message: String) {

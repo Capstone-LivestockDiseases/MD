@@ -5,6 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.capstone_livestockcare.data.UserRepository
 import com.example.capstone_livestockcare.data.di.Injection
+import com.example.capstone_livestockcare.view.fragment.profile.ProfileViewModel
 import com.example.capstone_livestockcare.view.login.LoginViewModel
 import com.example.capstone_livestockcare.view.main.MainViewModel
 import com.example.capstone_livestockcare.view.register.RegisterViewModel
@@ -24,6 +25,10 @@ class ViewModelFactory(private val repository: UserRepository) : ViewModelProvid
 
             modelClass.isAssignableFrom(MainViewModel::class.java) -> {
                 MainViewModel(repository) as T
+            }
+
+            modelClass.isAssignableFrom(ProfileViewModel::class.java)->{
+                ProfileViewModel(repository) as T
             }
 
             else -> throw IllegalArgumentException("Unknown ViewModel class: " + modelClass.name)

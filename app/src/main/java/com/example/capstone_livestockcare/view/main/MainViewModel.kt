@@ -14,8 +14,4 @@ class MainViewModel(private val repository: UserRepository) : ViewModel() {
         return repository.getSession().asLiveData()
     }
 
-    suspend fun logout() {
-        repository.logout()
-    }
-
 }

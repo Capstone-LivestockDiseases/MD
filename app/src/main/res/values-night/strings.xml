@@ -22,4 +22,8 @@
     <string name="home">Home</string>
     <string name="history">History</string>
     <string name="profile">Profile</string>
+    <string name="still_without_account">Still Without Account ?</string>
+    <string name="news_title">News Title</string>
+    <string name="description">Description</string>
+    <string name="scan_button">Take Ur Picture</string>
 </resources>

@@ -19,6 +19,7 @@ import com.example.capstone_livestockcare.databinding.ActivityLoginBinding
 import com.example.capstone_livestockcare.view.ViewModelFactory
 import com.example.capstone_livestockcare.view.WelcomeActivity
 import com.example.capstone_livestockcare.view.main.MainActivity
+import com.example.capstone_livestockcare.view.register.RegisterActivity
 import com.google.gson.Gson
 import kotlinx.coroutines.launch
 import retrofit2.HttpException
@@ -98,6 +99,11 @@ class LoginActivity : AppCompatActivity() {
                 showToast(errorResponse.message)
             }
 
+        }
+
+        binding.signUpText.setOnClickListener {
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
         }
     }
 

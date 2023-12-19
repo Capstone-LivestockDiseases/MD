@@ -58,6 +58,7 @@ dependencies {
 
     //Glide
     implementation("com.github.bumptech.glide:glide:4.16.0")
+    implementation ("nl.joery.animatedbottombar:library:1.1.0")
 
     //API
     implementation("com.squareup.retrofit2:retrofit:2.9.0")

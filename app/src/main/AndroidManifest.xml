@@ -15,6 +15,22 @@
         android:theme="@style/Theme.CapstoneLivestockCare"
         tools:targetApi="31">
         <activity
+            android:name=".view.ScanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main" />
+        <activity
+            android:name=".view.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.HistoryActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.WelcomeActivity"
             android:exported="true">
             <intent-filter>
